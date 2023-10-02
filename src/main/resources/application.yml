@@ -13,6 +13,12 @@ spring:
   # session 失效时间
   session:
     timeout: 86400
+    store-type: redis    #存入redis   默认是none存在单台服务器
+  # redis 配置
+  redis:
+    port: 6379
+    host: localhost
+    database: 0
   #swagger配置
   mvc:
     pathmatch:

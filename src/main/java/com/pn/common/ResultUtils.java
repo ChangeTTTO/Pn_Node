@@ -37,7 +37,6 @@ public class ResultUtils {
 
     /**
      * 失败
-     *
      * @param errorCode
      * @return
      */
@@ -48,7 +47,6 @@ public class ResultUtils {
 
     /**
      * 失败
-     *
      * @param errorCode
      * @return
      */
